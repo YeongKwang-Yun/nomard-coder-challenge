@@ -1,0 +1,12 @@
+/* Components */
+@import "components/title-component.css";
+
+/* Screens */
+@import "screens/screen-header.css";
+@import "screens/search-bar.css";
+@import "screens/main-screen.css";
+
+body {
+  background-color: #ffce33;
+  margin: 0px;
+}

@@ -1,0 +1,37 @@
+/* Components */
+@import "components/music-component.css";
+
+/* Screens */
+@import "screens/play-bar.css";
+
+.green-box {
+  width: 410px;
+  height: 845px;
+  background-color: #00c6ad;
+  padding-top: 5px;
+}
+
+.white-box {
+  width: 400px;
+  height: 840px;
+  background-color: #ffffff;
+  margin: 0px 5px;
+}
+
+.screen-header {
+  display: flex;
+
+  padding: 60px 20px 50px 20px;
+  font-weight: 600;
+  font-size: 25px;
+  width: 100%;
+}
+
+.screen-header__column {
+  width: 33%;
+}
+.screen-header__column:first-child {
+  padding-left: 5px;
+}
+.screen-header__column:nth-child(2) {
+}

@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 570px;
+  height: 500px;
+  background-color: #6bbcbe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes circleFlip {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+.square__circle {
+  display: flex;
+  margin-bottom: 90px;
+  justify-content: space-between;
+  animation: circleFlip 1s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.square__circle__column {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fefefe;
+}
+
+@keyframes stickMove {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.square__stick {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.square__stick__column {
+  width: 14px;
+  height: 48px;
+  background-color: #ffffff;
+}
+.square__stick__column:first-child {
+  animation: stickMove 1s ease-in-out infinite;
+  animation-delay: 1s;
+}
+.square__stick__column:nth-child(2) {
+  animation: stickMove 1s ease-in-out infinite;
+  animation-delay: 1.1s;
+}
+.square__stick__column:nth-child(3) {
+  animation: stickMove 1s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+.square__stick__column:nth-child(4) {
+  animation: stickMove 1s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+.square__stick__column:last-child {
+  animation: stickMove 1s ease-in-out infinite;
+  animation-delay: 1.4s;
+}

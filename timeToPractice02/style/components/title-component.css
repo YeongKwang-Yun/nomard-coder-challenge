@@ -1,0 +1,128 @@
+.title__component main {
+  display: flex;
+}
+
+.title__component__text,
+.title__component__contents {
+  padding-left: 120px;
+}
+
+.title__component__text {
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 70px;
+}
+
+.title__component__contents {
+  display: flex;
+  overflow-x: auto;
+}
+.title__component__contents__photo__main img {
+  width: 350px;
+  height: 525px;
+  border-radius: 20px;
+}
+
+.title__component__contents__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.title__component__contents__text__title,
+.title__component__contents__text__subtitle,
+.title__component__contents__recommend-rate,
+.title__component__contents__text__hashtag {
+  margin-bottom: 25px;
+}
+
+.title__component__contents__text__title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.title__component__contents__text__subtitle {
+  font-size: 40px;
+  opacity: 0.3;
+}
+
+.title__component__contents__recommend-rate {
+  font-size: 30px;
+  color: #ffce33;
+}
+
+.title__component__contents__recommend-rate span:last-child {
+  color: rgb(238, 238, 238);
+}
+.title__component__contents__text__hashtag {
+  font-size: 30px;
+  margin: 50px 0px 80px 0px;
+}
+
+.title__component__contents__text__hashtag span {
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-right: 20px;
+}
+.title__component__contents__text__like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__component__contents__text__like i {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffce33;
+  font-size: 38px;
+  border-radius: 50%;
+}
+
+.title__component__contents__text__like span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  border-radius: 13px;
+  margin-left: 130px;
+}
+
+.title__component__sub {
+  margin-top: 160px;
+}
+.title__component__contents__recommend img {
+  width: 200px;
+  height: 310px;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.title__component__contents__photo__small img {
+  width: 300px;
+  height: 380px;
+}
+
+.title__component__contents__text__title-small {
+  margin: 10px 0px 35px 0px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.title__component__contents__text__subtitle-small {
+  font-size: 22px;
+  opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__component__contents__text__subtitle-small span {
+  margin-bottom: 9px;
+}
