@@ -1,0 +1,18 @@
+.music__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music__text__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+
+.music__text__subtitle {
+  font-weight: 600;
+  opacity: 0.4;
+  margin-bottom: 45px;
+}

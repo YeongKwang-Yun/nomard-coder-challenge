@@ -1,0 +1,40 @@
+.search-music__status-bar {
+  width: 330px;
+  height: 70px;
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+
+  margin-left: 15px;
+  position: absolute;
+  bottom: 20px;
+  opacity: 0.9;
+}
+
+.search-music__status-bar__column {
+  color: white;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+.search-music__status-bar__column__subtitle {
+  opacity: 0.5;
+}
+
+.search-music__status-bar__column__title {
+  opacity: 0.9;
+}
+
+.search-music__status-bar__column__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.search-music__status-bar__column__icons i {
+  margin-left: 20px;
+}
+.search-music__status-bar__column__icons i:nth-child(2) {
+  font-size: 25px;
+}

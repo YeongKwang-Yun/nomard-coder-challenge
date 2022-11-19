@@ -1,0 +1,12 @@
+.search-music__screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-music__screen__profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgb(176, 196, 222);
+}

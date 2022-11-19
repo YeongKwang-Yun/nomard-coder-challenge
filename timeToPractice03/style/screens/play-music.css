@@ -1,0 +1,85 @@
+.play-music__screen__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+.play-music__screen__photo img {
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  box-shadow: 0px 30px 80px rgba(30, 144, 255, 0.4);
+  margin-bottom: 60px;
+}
+
+.music__play-bar {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.music__play-bar__playtime {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 25px 0px 25px;
+  opacity: 0.4;
+  margin-bottom: 10px;
+}
+
+.music__play-bar__gray-bar,
+.music__play-bar__black-bar {
+  height: 5px;
+  width: 318px;
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 22px;
+}
+.music__play-bar__gray-bar {
+  opacity: 0.1;
+}
+.music__play-bar__black-bar {
+  position: absolute;
+  width: 210px;
+  bottom: 0px;
+}
+.music__play-bar__black-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: -2px;
+  right: 128px;
+}
+
+.music__play__icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.music__play__icons .fa-repeat,
+.music__play__icons .fa-shuffle {
+  opacity: 0.2;
+  font-size: 20px;
+}
+
+.music__play__icons .fa-backward-step,
+.music__play__icons .fa-forward-step {
+  font-size: 30px;
+}
+.music__play__icons__play-btn {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0px 2px 20px rgba(75, 0, 130, 0.7);
+}
+
+.fa-play {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
